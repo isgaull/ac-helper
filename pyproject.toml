@@ -13,6 +13,7 @@ urllib3 = "^1.26.12"
 "discord.py" = "^2.2.2"
 discord = "^2.2.2"
 python-dotenv = "^1.0.0"
+config = "^0.5.1"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"

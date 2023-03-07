@@ -134,6 +134,14 @@ optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
 
 [[package]]
+name = "config"
+version = "0.5.1"
+description = "A hierarchical, easy-to-use, powerful configuration module for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "cryptography"
 version = "38.0.4"
 description = "cryptography is a package which provides cryptographic recipes and primitives to Python developers."
@@ -619,7 +627,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "14109383046d4f0bdbce435787f50658a29334911fd87caec4ca3d8a5612377c"
+content-hash = "573472d59ac534790538a41e4877f23284b116d1390867a99724af7309e2c8f5"
 
 [metadata.files]
 aiohttp = []
@@ -633,6 +641,7 @@ cffi = []
 charset-normalizer = []
 click = []
 colorama = []
+config = []
 cryptography = []
 debugpy = []
 discord = []
