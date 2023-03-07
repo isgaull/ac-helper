@@ -11,6 +11,7 @@ keyword4 = "event help"
 keyword5 = "rice scene"
 keyword6 = "ticket accas"
 keyword7 = "ticket support"
+keyword8 = "can o'"
 guild_id = int(os.environ['GUILD_ID'])
 channel_id = int(os.environ['CHANNEL_ID'])
 role_id = int(os.environ['COMQNAROLE'])
@@ -66,6 +67,11 @@ async def on_message(message):
         role = guild.get_role(role_id2)
         channel = client.get_channel(channel_id)
         await channel.send(f'{role.mention}, {message.author.mention} has opened an AC Support Ticket!')
+
+    if keyword8 in message.content.lower():
+      guild = client.get_guild(guild_id)
+      channel = client.get_channel(channel_id)
+      await channel.send(f':sandy hats')
 
 keep_alive()
 token = os.environ.get("TOKEN")
